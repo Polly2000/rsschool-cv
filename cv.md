@@ -30,6 +30,6 @@ From personal achievements - independently redesigned the application twice
 Stack: React, Redux Toolkit, JavaScript, TypeScript, Scss, Axios
 
 ## Education:
-write something here
+Saint Petersburg State University of Telecommunications
 
 
