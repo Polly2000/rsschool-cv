@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet">
     <title>cv</title>
   </head>
   <body>
@@ -27,12 +27,15 @@
             <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
           </ul>
         </nav>
+        <div class="toggle">
+          <img src="./assets/img/menu.png" alt="Menu">
+        </div>
       </div>
     </header>
     <main class="main">
       <div class="container main-container">
         <div class="section section-profile" id="profile">
-          <img class="avatar" src="./assets/img/avatar.jpg" alt="Avatar" />
+          <img class="avatar" src="./assets/img/avatar.jpg" alt="Avatar">
           <div class="section-profile-title">
             <h1 class="section-title section-title-main">Polina Chemkova</h1>
             <h3 class="section-title">Frontend Developer</h3>
@@ -42,23 +45,23 @@
           <h2 class="section-title">Contacts</h2>
           <ul class="section-list">
             <li class="section-item">
-              <img class="section-icon" src="./assets/img/location.png" alt="Location" />
+              <img class="section-icon" src="./assets/img/location.png" alt="Location">
               <span>Russia, Saint Petersburg</span>
             </li>
             <li class="section-item">
-              <img class="section-icon" src="./assets/img/email.png" alt="Email" />
+              <img class="section-icon" src="./assets/img/email.png" alt="Email">
               <span>Email:&nbsp;</span>
               <a class="section-link" href="mailto:polinachemkova@gmail.com" title="email">
                 polinachemkova@gmail.com</a
               >
             </li>
             <li class="section-item">
-              <img class="section-icon" src="./assets/img/github.png" alt="GitHub" />
+              <img class="section-icon" src="./assets/img/github.png" alt="GitHub">
               <span>GitHub:&nbsp;</span>
               <a class="section-link" href="https://github.com/Polly2000">Polly2000</a>
             </li>
             <li class="section-item">
-              <img class="section-icon" src="./assets/img/telegram.png" alt="Telegram" />
+              <img class="section-icon" src="./assets/img/telegram.png" alt="Telegram">
               <span>Telegram:&nbsp;</span>
               <a class="section-link" href="https://t.me/p_kuznetsova">@p_kuznetsova</a>
             </li>
@@ -98,7 +101,7 @@ function twoMaxNums(arr) {
   let max1 = Math.max(arr[0], arr[1]);
   let max2 = Math.max(arr[0], arr[1]);
 
-  for (let i = 2; i < arr.length; i++) {
+  for (let i = 2; i &lt; arr.length; i++) {
     if (arr[i] > max1) {
       max1 = arr[i];
     } else if (arr[i] > max2) {
