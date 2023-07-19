@@ -159,6 +159,7 @@ body {
   display: block;
   font-family: monospace;
   color: #88b4e0;
+  white-space: pre-wrap;
 }
 
 @media (max-width: 1440px) {
